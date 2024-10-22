@@ -1,0 +1,182 @@
+:root {
+    --primary-color: #4E4033;
+    --secondary-color: #867638;
+    --accent1-color: #D2C0B1;
+    --accent2-color: #4F7DA7;
+  }
+
+  
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  /* Header Styles */
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--primary-color);
+      padding: 20px;
+      color: var(--accent1-color);
+  }
+  
+  .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: var(--accent1-color);
+  }
+  
+  .company-name {
+      font-size: 20px;
+      color: var(--accent1-color);
+  }
+  
+  nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+  }
+  
+  nav a {
+      text-decoration: none;
+      color: var(--accent1-color);
+  }
+  
+  nav a:hover {
+      color: var(--accent2-color);
+  }
+  
+  /* Call to Action Section */
+  .cta {
+      text-align: center;
+      background-color: var(--secondary-color);
+      color: var(--accent1-color);
+      padding: 40px 20px;
+  }
+  
+  .cta button {
+      background-color: var(--primary-color);
+      color: var(--accent1-color);
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+  }
+  
+  .cta button:hover {
+      background-color: var(--accent2-color);
+  }
+  
+  /* Content Blocks */
+  .content-blocks {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+  }
+  
+  .content-block {
+      text-align: center;
+      color: var(--primary-color);
+  }
+  
+  .content-block img {
+      max-width: 150px;
+      border: 2px solid var(--accent2-color);
+      padding: 10px;
+  }
+  
+  .content-block p {
+      color: var(--secondary-color);
+  }
+  
+  /* Featured Section */
+  .featured {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px;
+      background-color: var(--accent1-color);
+  }
+  
+  .featured img {
+      max-width: 200px;
+  }
+  
+  .featured-text {
+      max-width: 400px;
+      color: var(--primary-color);
+  }
+  
+  .featured button {
+      background-color: var(--secondary-color);
+      color: var(--accent1-color);
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+  }
+  
+  .featured button:hover {
+      background-color: var(--accent2-color);
+  }
+  
+  /* FAQ Section */
+  .faq {
+      background-color: var(--accent1-color);
+      padding: 20px;
+  }
+  
+  .faq h3 {
+      color: var(--primary-color);
+  }
+  
+  .faq-item {
+      margin-bottom: 10px;
+  }
+  
+  .faq-item h4 {
+      color: var(--secondary-color);
+  }
+  
+  .faq-item p {
+      color: var(--primary-color);
+  }
+  
+  .ask-question button {
+      background-color: var(--accent2-color);
+      color: var(--accent1-color);
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+  }
+  
+  .ask-question button:hover {
+      background-color: var(--primary-color);
+  }
+  
+  /* Footer Styles */
+  footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: var(--primary-color);
+      color: var(--accent1-color);
+  }
+  
+  .footer-logo {
+      font-size: 18px;
+      font-weight: bold;
+      color: var(--accent1-color);
+  }
+  
+  .social-icons a {
+      color: var(--accent1-color);
+      margin-left: 10px;
+  }
+  
+  .social-icons a:hover {
+      color: var(--accent2-color);
+  }
+  
